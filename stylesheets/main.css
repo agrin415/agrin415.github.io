@@ -277,20 +277,18 @@ footer {
         text-align: right;
         width: 290px;
         margin-right: 0px;
-        padding-right: 0px;
+        padding-left: 0px;
+        padding-right: 20px;
     }
 
     .contact-form form {
         float: right;
-        margin-left: 15px;
     }
 }
 
 @media (min-width: 1600px) {
 
     .contact-form p{
-        width: 300px;
-        margin-right: 0px;
-        margin-left: 120px;
+        width: 430px;
     }
 }
