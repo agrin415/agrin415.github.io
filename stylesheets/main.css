@@ -71,6 +71,7 @@ footer {
 .bottomnav {
     text-align: left;
     padding: 15px;
+    font-size: 10vw;
 }
 
 
@@ -220,6 +221,10 @@ footer {
 
     header {
         padding-left: 35px;
+    }
+
+    .bottomnav {
+        font-size: 1.35em;
     }
 
     .navbar {
