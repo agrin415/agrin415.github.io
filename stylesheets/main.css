@@ -182,7 +182,7 @@ footer {
 
 .content {
     display: block;
-    width: 80vw;
+    width: auto;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: auto;
@@ -206,7 +206,6 @@ footer {
     }
 
     .navbar {
-        font-size: 1em;
         right: 25px;
     }
 
