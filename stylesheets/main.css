@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.85em;
     font-weight: 100;
     margin-top: 0px;
     display: inline-block;
@@ -50,7 +50,7 @@ footer {
     right: 0px;
     top: 15px;
     display: inline-block;
-    font-size: 0.85em;
+    font-size: 0.95em;
 }
 
 .navbar a {
@@ -206,6 +206,7 @@ footer {
     }
 
     .navbar {
+        font-size: 1em;
         right: 25px;
     }
 
