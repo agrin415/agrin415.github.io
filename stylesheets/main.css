@@ -201,7 +201,7 @@ footer {
     border-radius: 15px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     h1 {
         font-size: 3em;
     }
