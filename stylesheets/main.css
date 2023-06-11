@@ -77,6 +77,7 @@ footer {
     -moz-box-shadow: inset 0px 0px 25vw 0px rgba(0, 0, 0, 0.8);
     box-shadow: inset 0px 0px 25vw 0px rgba(0, 0, 0, 0.8);
     background: url('../images/bg3.jpg') center center/ cover no-repeat;
+    background-attachment: fixed;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 25px;
