@@ -20,7 +20,7 @@ h2 {
     font-size: 1.55em;
     font-weight: 100;
     margin-top: 0px;
-    display: inline-block;
+    display: block;
 }
 
 p {
@@ -56,6 +56,11 @@ footer {
 .navbar a {
     color: #ffffff;
     margin: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #7f51f5;
 }
 
 .bottomnav {
@@ -69,6 +74,11 @@ footer {
     text-align: left;
     color: #ffffff;
     margin: 5px;
+    text-decoration: none;
+}
+
+.bottomnav a:hover {
+    color: #7f51f5;
 }
 
 .page-body {
@@ -87,8 +97,57 @@ footer {
 .contact-form {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.contact-form p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-form form {
+    background: #ffffff;
+    border-radius: 15px;
+    color: #000000;
+    padding: 25px;
+    width: 79vw;
+    margin: auto;
+    text-align: right;
+    box-shadow: 2px 2px 5px black;
+}
+
+.contact-form label {
+    text-align: left;
+    display: block;
+}
+
+.contact-form input, textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.contact-form textarea {
+}
+
+.contact-form button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button[type=submit]:hover {
+    background-color: #45a049;
 }
 
 @keyframes slideInFromLeft {
@@ -154,5 +213,42 @@ footer {
     .content {
         width: 600px;
     }
+
+    .contact-form p {
+        text-align: center;
+    }
+
+    .contact-form form {
+        width: 600px;
+        text-align: right;
+        display: block;
+    }
+
+}
+@media (min-width: 1400px) {
+    .contact-form {
+        overflow: auto;
+        width: 69vw;
+    }
+
+    .contact-form p {
+        display:inline-block;
+        text-align: right;
+        width: 290px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .contact-form form {
+        float: right;
+        margin-left: 15px;
+    }
 }
 
+@media (min-width: 1600px) {
+
+    .contact-form p{
+        margin-right: 0px;
+        margin-left: 120px;
+    }
+}

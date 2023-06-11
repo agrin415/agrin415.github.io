@@ -10,8 +10,8 @@
         <header>
             <h1>Andrey Grinberg</h1>
             <nav class="navbar">
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="#about"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+                <a href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a>
             </nav>
         </header>
         <section class="page-body">
@@ -27,11 +27,23 @@
             </section>
         </section>
         <section id="contact" class="contact-form">
-            <p>Contact form coming soon.</p>
+            <h2>Contact me</h2>
+            <p>To get in touch, you can reach me via email at dreygrin [at] gmail [dot] com, or use this contact form.</p>
+            <form action="https://formspree.io/f/mlekyqbb" method="POST">
+                <label>
+                    Your email: 
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message" rows="10" required></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
         </section>
         <footer>
             <nav class="bottomnav">
-                <i class="fa fa-github"></i> <a href="https://github.com/agrin415">Github</a>
+                <a href="https://github.com/agrin415"><i class="fa fa-github"></i> Github</a>
             </nav>
         </footer>
     </body>
